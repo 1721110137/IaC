@@ -1,0 +1,11 @@
+# Exported from Render on 2024-10-11T21:47:27Z
+services:
+- type: web
+  name: IaC_demo
+  runtime: python
+  repo: https://github.com/1721110137/IaC
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python3 app.py
+version: "1"
